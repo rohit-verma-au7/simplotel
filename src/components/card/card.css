@@ -1,0 +1,76 @@
+.mainCardBox {
+    background-color: #fff;
+    width: 280px;
+    padding: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    /* margin: 15px; */
+}
+
+.mainCardBox .imgContainer {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 20px;
+    /* background-color: olive; */
+}
+
+.mainCardBox img {
+     width: 100%;
+     height: 100%;
+     border-top-right-radius: 60px;
+}
+
+.mainCardBox .detailContainer {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCardBox .detailContainer h3 {
+    /* background-color: aqua; */
+    font-size: 23px;
+    /* margin-bottom: 10px; */
+    letter-spacing: 1px;
+}
+
+.mainCardBox .detailContainer p {
+    word-spacing: 3px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/* Media queries */
+/* mobile device 320px — 480px: Mobile devices */
+@media screen and (max-width: 480px) {
+    
+}
+
+/* tablet 481px — 768px: iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .mainCardBox {
+        background-color: #fff;
+        width: 260px;
+        padding: 20px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+}
+
+/* Laptop 769px — 1024px: Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .mainCardBox {
+        background-color: #fff;
+        width: 230px;
+        padding: 20px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+}
+
+/* large screen 1025px — 1200px: Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}

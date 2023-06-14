@@ -1,0 +1,50 @@
+.homeContainer {
+    background: url("../../assets//img1.jpg");
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.homeContainer .content {
+    /* border: 2px solid black; */
+    background-color: rgba(255,192,203, 0.8);
+    background-color: rgba(246, 36, 89, 0.4);
+    color: #fff;
+    width: 580px;
+    padding: 50px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    padding-right: 100px;
+}
+
+.homeContainer .content h1 {
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+/* Media queries */
+/* mobile device 320px — 480px: Mobile devices */
+@media screen and (max-width: 480px) {
+
+}
+
+/* tablet 481px — 768px: iPads, Tablets */
+@media screen and (max-width: 768px) {
+    .homeContainer {
+        padding-left: 0px;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .homeContainer .content {
+        width: 480px;
+        padding: 30px;
+    }
+}
